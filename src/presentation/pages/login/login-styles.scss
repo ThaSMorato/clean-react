@@ -61,22 +61,6 @@ body {
       text-transform: uppercase;
     }
 
-    .inputWrap {
-      margin-top: 16px;
-      position: relative;
-      display: flex;
-      align-items: center;
-      span {
-        cursor: help;
-        position: absolute;
-        right: 8px;
-        font-size: 12px;
-      }
-      input {
-        width: 100%;
-      }
-    }
-
     button {
       margin-top: 24px;
     }
