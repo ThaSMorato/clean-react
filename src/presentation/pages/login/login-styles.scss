@@ -1,4 +1,5 @@
 @import "../../styles/colors.scss";
+
 * {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -42,20 +43,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
-
-  .header {
-    background-color: $primary;
-    display: flex;
-    flex-direction: column;
-    border-top: 40px solid $primaryDark;
-    align-items: center;
-    padding: 40px;
-
-    h1 {
-      color: $white;
-      margin-top: 16px;
-    }
-  }
 
   .form {
     display: flex;
@@ -120,10 +107,5 @@ body {
         color: $primaryLight;
       }
     }
-  }
-
-  .footer {
-    background-color: $primary;
-    height: 48px;
   }
 }
