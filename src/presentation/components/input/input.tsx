@@ -11,6 +11,7 @@ export const Input = (props: InputProps) => {
   const eneableInput = (event: React.FocusEvent<HTMLInputElement>) => {
     event.target.readOnly = false;
   };
+
   return (
     <div className={Styles.inputWrap}>
       <input {...props} readOnly onFocus={eneableInput} />
